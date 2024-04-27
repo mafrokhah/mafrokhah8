@@ -1,0 +1,57 @@
+/* CSS untuk formulir data */
+
+/* Mengatur tampilan tabel */
+table {
+    border-collapse: collapse;
+    width: 70%; /* Menyesuaikan lebar tabel */
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0); /* Mengatur border */
+    padding: 8px; /* Mengatur padding */
+}
+
+th {
+    text-align: left; /* Mengatur teks pada header tabel menjadi rata kiri */
+    background-color: #49c5ff; /* Mengatur warna latar belakang header */
+}
+
+/* Menambah garis miring */
+.date-input {
+    display: flex; /* Mengatur input tanggal agar tampil dalam satu baris */
+}
+
+.date-input input {
+    flex: 1; /* Mengatur agar input tanggal, bulan, dan tahun memiliki lebar yang sama */
+    margin-right: 5px; /* Memberi jarak antara input */
+}
+
+/* Mengatur teks pada tombol submit */
+input[type="submit"] {
+    background-color: #4CAF50; /* Mengatur warna latar belakang */
+    color: white; /* Mengatur warna teks */
+    padding: 10px 20px; /* Mengatur padding */
+    border: none; /* Menghapus border */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+    transition: background-color 0.3s; /* Efek transisi ketika tombol ditekan */
+}
+
+/* Mengatur teks pada tombol submit saat diarahkan */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Mengubah warna latar belakang saat diarahkan */
+}
+
+/* Mengatur teks pada tombol reset */
+input[type="reset"] {
+    background-color: #f44336; /* Mengatur warna latar belakang */
+    color: white; /* Mengatur warna teks */
+    padding: 10px 20px; /* Mengatur padding */
+    border: none; /* Menghapus border */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+    transition: background-color 0.3s; /* Efek transisi ketika tombol ditekan */
+}
+
+/* Mengatur teks pada tombol reset saat diarahkan */
+input[type="reset"]:hover {
+    background-color: #d32f2f; /* Mengubah warna latar belakang saat diarahkan */
+}
